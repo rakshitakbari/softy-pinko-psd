@@ -1,0 +1,25 @@
+header{
+    .navbar-toggler-icon{
+        margin-top: 10px;
+    }
+    .navbar-collapse{
+        ul{
+            li{
+                a{
+                    font-size: 15px;
+                    color: $black;
+                    font-weight: 500;
+                    line-height: 40px;
+                    letter-spacing: 1px;
+                    margin-right: 10px;
+                    @include media-breakpoint-down(md){
+                        font-size: 11px;
+                    }
+                    @include media-breakpoint-down(sm){
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}

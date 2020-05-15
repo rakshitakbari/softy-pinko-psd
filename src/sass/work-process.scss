@@ -1,0 +1,95 @@
+#work-process{
+    min-height: 215px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    &::before{
+        content: '';
+        position: absolute;
+        width: 140%;
+        height: 140%;
+        opacity: .95;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        background-image: url(../images/work-process-bg.png);
+        top: -20%;
+        left: -20%;
+    }
+    .work-process-heding{
+        text-align: center;
+        h1 {
+            color: $white;
+            font-weight: 500;
+            font-size: 28px;
+            letter-spacing: 0.25px;
+            margin-bottom: 30px;
+        }
+        p {
+            letter-spacing: 1px;
+            margin-bottom: 40px;
+            color: $white;
+            letter-spacing: 0.25px;
+            line-height: 26px;
+            font-weight: 400;
+            font-size: 15px;
+        }
+    }
+    .work-process-box{
+        .mini-box {
+            display: block;
+            background: $white;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+            margin-bottom: 30px;
+            position: relative;
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            text-align: center;
+            &:hover{
+                text-decoration: none;
+                margin-top: -10px;
+            }
+            &:before {
+                content: '';
+                position: absolute;
+                z-index: -1;
+                background: $white;
+                width: 100%;
+                opacity: .15;
+                height: 100%;
+                bottom: -10px;
+                left: 0px;
+                right: -20px;
+                margin: auto;
+                border-radius: 20px;
+                z-index: 1;
+            }
+            i {
+                display: block;
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+            strong {
+                display: block;
+                font-weight: 400;
+                font-size: 17px;
+                color:  $black;
+                letter-spacing: 0.25px;
+                margin-bottom: 5px;
+                margin-top: 20px;
+            }
+            span {
+                display: block;
+                font-weight: 400;
+                font-size: 14px;
+                color: #777;
+                letter-spacing: .75px;
+            }
+        }
+    }
+}

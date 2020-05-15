@@ -1,0 +1,49 @@
+#home{
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/banner-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    .hero-title{
+        text-align: center;
+        margin-bottom: 100px !important;
+        h1{
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 54px;
+            letter-spacing: 1.4px;
+            margin-bottom: 30px;
+            color: $white;
+        }
+        p{
+            font-weight: 400;
+            font-size: 15px;
+            color: $white;
+            line-height: 28px;
+            letter-spacing: 0.25px;
+            margin-bottom: 40px;
+            position: relative;
+        }
+        .main-button-slider{
+            font-size: 13px;
+            border-radius: 20px;
+            padding: 12px 20px;
+            background-color: $theme-color;
+            text-transform: uppercase;
+            color: $white;
+            letter-spacing: 0.25px;
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}

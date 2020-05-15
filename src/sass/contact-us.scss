@@ -1,0 +1,74 @@
+#contact-us{
+    background: #f2f2fe;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    h5 {
+        font-weight: 500;
+        font-size: 18px;
+        color: #1e1e1e;
+        letter-spacing: 0.25px;
+        line-height: 26px;
+    }
+    .contact-text {
+        font-weight: 400;
+        font-size: 14px;
+        color: #6F8BA4;
+        letter-spacing: 0.6px;
+        line-height: 26px;
+        p {
+            margin-bottom: 28px;
+        }
+    }
+    .contact-us-forms-pace{
+        margin-top: 40px;
+        .contact-form{
+            fieldset {
+                min-width: 0;
+                padding: 0;
+                margin: 0;
+                border: 0;
+            }
+            input, textarea {
+                color: #777;
+                font-size: 14px;
+                border: 1px solid #eee;
+                width: 100%;
+                height: 50px;
+                outline: none;
+                padding-left: 20px;
+                padding-right: 20px;
+                border-radius: 25px;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                margin-bottom: 30px;
+            }
+            textarea {
+                height: 150px;
+                resize: none;
+                padding: 20px;
+            }
+            button.main-button {
+                outline: none;
+                border: none;
+                cursor: pointer;
+                font-size: 13px;
+                border-radius: 20px;
+                padding: 12px 20px;
+                background-color: #8261ee;
+                text-transform: uppercase;
+                color: $white;
+                letter-spacing: 0.25px;
+                -webkit-transition: all 0.3s ease 0s;
+                -moz-transition: all 0.3s ease 0s;
+                -o-transition: all 0.3s ease 0s;
+                transition: all 0.3s ease 0s;
+                &:hover{
+                    background-color: $theme-color;
+                    transition: all 0.3s ease 0s;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
